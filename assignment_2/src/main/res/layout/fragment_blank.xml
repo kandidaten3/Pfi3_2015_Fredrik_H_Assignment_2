@@ -1,0 +1,102 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kandidaten3.assignment_2.BlankFragment"
+    android:id="@+id/Frame_layout"
+    android:rowCount="5"
+    android:columnCount="3">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:id="@+id/Linear_Layout"
+        android:weightSum="1"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Trafikslag"
+            android:id="@+id/buttonTrafikslag"
+            android:textSize="25dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ankomst"
+            android:id="@+id/radioButtonAnkomst"
+            android:checked="false"
+            android:textSize="25dp"
+            android:gravity="start"
+            android:textAlignment="gravity" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Avgång"
+            android:id="@+id/radioButtonAvgång"
+            android:layout_gravity="right"
+            android:checked="false"
+            android:textSize="25dp"
+            android:textAlignment="gravity"
+            android:gravity="end" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tid/datum"
+            android:id="@+id/textViewTid"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:textSize="30dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextTid" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Favoritresor"
+            android:id="@+id/favorit_button"
+            android:textSize="25dp" />
+
+        <TextView
+            android:layout_width="68dp"
+            android:layout_height="wrap_content"
+            android:text="Till"
+            android:id="@+id/textViewTill"
+            android:textSize="30dp" />
+
+        <EditText
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textTill" />
+
+        <TextView
+            android:layout_width="153dp"
+            android:layout_height="wrap_content"
+            android:text="Från"
+            android:id="@+id/textViewFrån"
+            android:textSize="30dp" />
+
+        <EditText
+            android:layout_width="214dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textFrån" />
+
+        <Button
+            android:layout_width="122dp"
+            android:layout_height="wrap_content"
+            android:text="Tillbaka"
+            android:id="@+id/ok_button"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+
+</GridLayout>
